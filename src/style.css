@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./utils/fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Poppins;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

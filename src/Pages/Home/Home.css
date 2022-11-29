@@ -1,0 +1,70 @@
+.Homepage{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.BackgroundImage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.HomepageBackground{
+    width: 100%;
+    height: 100%;
+}
+.HomepageBackground>::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, #3D3D3C 0%, rgba(189, 189, 187, 0.2) 60%);
+    top: 0;
+    left: 0;
+}
+.BackgroundImage>img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.description{
+    width: 100%;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.description>:nth-child(1){
+    color: #ffffff;
+    font-size: 50px;
+}
+.description>:nth-child(2){
+    color: #ffffffa0;
+    font-size: 20px;
+    margin: 20px 0 30px;
+}
+.Mainbuttons{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Mainbuttons>button{
+    width: 49%;
+    background-color: rgb(10, 101, 126);
+    border: none;
+    padding: 2% 3%;
+    border-radius: 10px;
+}
+.Mainbuttons>button>:nth-child(1){
+    font-size: 20px;
+    color: #fff;
+}
